@@ -24,7 +24,7 @@ header {
     background-color: blanchedalmond;
     grid-area: header; 
     display: flex;
-    flex-direction: column; 
+    flex-direction: row; 
     justify-content: start; 
     align-items: center; 
 
@@ -34,12 +34,14 @@ section.page {
     background-color: skyblue; 
     grid-area: page; 
     display: flex; 
+    flex-direction: column;
     flex-wrap: wrap; 
 }
 section.images {
     background-color: antiquewhite;
     grid-area: images; 
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap; 
     float: left;
 }
@@ -47,6 +49,7 @@ section.sources {
     background-color: bisque; 
     grid-area: sources; 
     display: flex;
+    flex-direction: row; 
     flex-wrap: wrap; 
     align-items: center; 
 
