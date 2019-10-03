@@ -30,7 +30,7 @@ header {
 
 section.main {
     background-color: skyblue; 
-    grid-area: page; 
+    grid-area: main; 
     display: flex; 
     flex-direction: column;
     flex-wrap: wrap; 
