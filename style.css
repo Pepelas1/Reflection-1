@@ -11,7 +11,7 @@ main {
     grid-template-areas: "header header header"
                          "images page page"
                          "images page page"
-                         "sources sources sources";
+                         "images sources sources";
     grid-template-columns: 1fr 4fr 1fr;
     grid-template-rows: 1fr 4fr 1fr; 
     grid-gap: none;
