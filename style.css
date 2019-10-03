@@ -15,7 +15,6 @@ main {
     grid-template-columns: 1fr 4fr 1fr;
     grid-template-rows: 1fr 4fr 1fr; 
     grid-gap: none;
-    text-align: center;
 
 
 }
@@ -27,7 +26,8 @@ header {
     display: flex;
     flex-direction: column; 
     justify-content: start; 
-    align-items: none; 
+    align-items: center; 
+
 }
 
 section.page {
@@ -41,11 +41,13 @@ section.images {
     grid-area: images; 
     display: flex;
     flex-wrap: wrap; 
+    float: left;
 }
 section.sources {
     background-color: bisque; 
     grid-area: sources; 
     display: flex;
     flex-wrap: wrap; 
+    align-items: center; 
 
 }
