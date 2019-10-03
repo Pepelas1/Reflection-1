@@ -1,0 +1,51 @@
+html, html * {
+    box-sizing: border-box;
+    
+}
+
+
+main {
+    background-color: rgba(80,80,80,0.2);
+    min-height: 100vh;
+    display: grid;
+    grid-template-areas: "header header header"
+                         "images page page"
+                         "images page page"
+                         "sources sources sources";
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 1fr 4fr 1fr; 
+    grid-gap: none;
+    text-align: center;
+
+
+}
+
+
+header {
+    background-color: blanchedalmond;
+    grid-area: header; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: start; 
+    align-items: none; 
+}
+
+section.page {
+    background-color: skyblue; 
+    grid-area: page; 
+    display: flex; 
+    flex-wrap: wrap; 
+}
+section.images {
+    background-color: antiquewhite;
+    grid-area: images; 
+    display: flex;
+    flex-wrap: wrap; 
+}
+section.sources {
+    background-color: bisque; 
+    grid-area: sources; 
+    display: flex;
+    flex-wrap: wrap; 
+
+}
