@@ -9,14 +9,13 @@ main {
     min-height: 100vh;
     display: grid;
     grid-template-areas: "header header header"
-                         "images page page"
-                         "images page page"
-                         "images sources sources";
+                         "page page page"
+                         "page page page"
+                         "sources sources sources";
     grid-template-columns: 1fr 4fr 1fr;
     grid-template-rows: 1fr 4fr 1fr; 
     grid-gap: none;
-
-
+    
 }
 
 
@@ -37,14 +36,7 @@ section.page {
     flex-direction: column;
     flex-wrap: wrap; 
 }
-section.images {
-    background-color: antiquewhite;
-    grid-area: images; 
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap; 
-    position: left;
-}
+
 section.sources {
     background-color: bisque; 
     grid-area: sources; 
