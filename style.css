@@ -9,11 +9,11 @@ main {
     min-height: 100vh;
     display: grid;
     grid-template-areas: "header header header"
-                         "main main main"
-                         "sources sources sources";
+                         "main main sources"
+                         "main main sources";
     grid-template-columns: 1fr 4fr 1fr;
     grid-template-rows: 1fr 4fr 1fr; 
-    grid-gap: none;
+    grid-gap: 10px;
 
 }
 
