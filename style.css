@@ -30,8 +30,7 @@ header {
 
 section.main {
     background-color: #F0F8FF; 
-    grid-row: 2/3; 
-    grid-column: 1/2; 
+    grid-area: main;
     display: flex; 
     flex-direction: column;
     flex-wrap: wrap; 
@@ -39,8 +38,7 @@ section.main {
 
 section.sources {
     background-color: bisque; 
-    grid-row: 2/3; 
-    grid-column: 3;
+    grid-area: sources;
     display: flex;
     flex-direction: row; 
     flex-wrap: wrap; 
