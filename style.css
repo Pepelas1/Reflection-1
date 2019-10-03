@@ -5,7 +5,7 @@ html, html * {
 
 
 main {
-    background-color: rgba(80,80,80,0.2);
+    background-color:#F0F8FF;
     min-height: 100vh;
     display: grid;
     grid-template-areas: "header header header"
@@ -29,8 +29,9 @@ header {
 }
 
 section.main {
-    background-color: skyblue; 
-    grid-area: main; 
+    background-color: #F0F8FF; 
+    grid-row: 2/3; 
+    grid-column: 1/2; 
     display: flex; 
     flex-direction: column;
     flex-wrap: wrap; 
@@ -38,10 +39,12 @@ section.main {
 
 section.sources {
     background-color: bisque; 
-    grid-area: sources; 
+    grid-row: 2/3; 
+    grid-column: 3;
     display: flex;
     flex-direction: row; 
     flex-wrap: wrap; 
     align-items: center; 
+    border: 5px, black;
 
 }
